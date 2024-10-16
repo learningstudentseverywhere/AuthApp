@@ -1,0 +1,1 @@
+using college as service from '../../srv/cat-service';
