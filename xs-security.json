@@ -1,10 +1,14 @@
-{
+{  
   "xsappname": "myAuthApp",
   "tenant-mode": "dedicated",
   "scopes": [
     {
       "name": "$XSAPPNAME.Admin",
       "description": "Admin"
+    },
+    {
+      "name": "$XSAPPNAME.Student",
+      "description": "Student"
     }
   ],
   "attributes": [],
@@ -14,6 +18,14 @@
       "description": "generated",
       "scope-references": [
         "$XSAPPNAME.Admin"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "Student",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Student"
       ],
       "attribute-references": []
     }

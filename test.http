@@ -1,0 +1,14 @@
+###
+GET http://localhost:5000/odata/v4/college/Subjects
+
+
+###
+POST http://localhost:5000/odata/v4/college/Subjects
+Content-Type: application/json 
+Authorization: "Basic sakthidanie007:senthil008A@"
+
+{
+    "subject_id" : "4001",
+     "professor_id": "5001",
+        "subject_name" : "Malyalam"
+}
